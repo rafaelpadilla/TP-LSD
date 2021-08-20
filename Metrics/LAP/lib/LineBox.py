@@ -92,8 +92,8 @@ class BoundingBox:
            det1BB[1] == det2BB[1] and \
            det1BB[2] == det2BB[2] and \
            det1BB[3] == det2BB[3] and \
-           det1ImgSize[0] == det1ImgSize[0] and \
-           det2ImgSize[1] == det2ImgSize[1]:
+           det1ImgSize[0] == det2ImgSize[0] and \
+           det1ImgSize[1] == det2ImgSize[1]:
             return True
         return False
 
